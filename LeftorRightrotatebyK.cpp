@@ -60,11 +60,8 @@ int main() {
         cout<<arr[i]<<" ";
     }
 
-
     cout<<"\nenter the place by you want to rotate :";
     cin>>k;
-
-    
 
     if (c=='l' || c=='L') {
         RotatetoLeft(arr, n, k);
