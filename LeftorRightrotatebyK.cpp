@@ -1,3 +1,5 @@
+/*TC:O(n), SC:O(k), since k array elements needs to be stored in a temp array*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
