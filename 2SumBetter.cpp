@@ -22,7 +22,7 @@ int main()
     vector<int> arr = {2, 6, 5, 8, 11};
     int target = 14;
     vector<int> ans = twoSum(n, arr, target);
-    cout << "This is the answer for variant 2: [" << ans[0] << ", "
+    cout << "This is answer for variant 2: [" << ans[0] << ", "
          << ans[1] << "]" << endl;
     return 0;
 }
