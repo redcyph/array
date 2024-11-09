@@ -30,9 +30,9 @@ long long maxSubarraySum(int arr[], int n) {
     //printing the subarray:
     cout << "The subarray is: [";
     for (int i = ansStart; i <= ansEnd; i++) {
-        cout << arr[i] << " ";
+        cout << arr[i] << " ,";
     }
-    cout << "]n";
+    cout << "]\n";
 
     // To consider the sum of the empty subarray
     // uncomment the following check:
